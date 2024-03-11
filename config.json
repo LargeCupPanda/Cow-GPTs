@@ -1,0 +1,13 @@
+{
+  "ai_model": "OpenAI",
+  "open_ai_api_key":"sk-***",
+  "open_ai_api_base":"https://****/v1",
+  "max_history_length": 10,
+
+  "models": {
+    "抖音分析": {"model_id": "gpt-4-gizmo-g-8KFoZeVZG", "keywords": ["抖音分析"]},
+    "英汉互译": {"model_id": "gpt-4-gizmo-g-KRT96ZFUI", "keywords": ["英汉互译"]},
+    "隔壁老王": {"model_id": "gpt-4-gizmo-g-U2Esjmcpv", "keywords": ["隔壁老王"]},
+    "默认": {"model_id": "gpt-4-1106-preview", "keywords": ["默认"]}
+  }
+}
