@@ -23,7 +23,7 @@ class GPTsChatBot:
             self.models = config.get("models", {})
 
             # OpenAI配置
-            self.openai_api_key = config.get("openai_api_key", "")
+            self.openai_api_key = config.get("open_ai_api_base", "")
             self.openai_api_base = config.get("open_ai_api_base", "https://api.aigcbest.top/v1")
             self.openai_model = self.models["默认"]['model_id']
             # 其他配置
